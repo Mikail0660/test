@@ -5,25 +5,25 @@
     z-index: 2;
     display: flex;
 
-    .author_avatar {
+    .author__avatar {
         height: 50px;
         margin-right: 16px;
     }
 
-    .author_info {
+    .author__info {
         font-family: 'Circe Bold';
         display: flex;
         flex-direction: column;
         justify-content: center;
 
-        .author_name {
-            font-size: 15px;
+        .author__name {
+            font-size: 16px;
             color: #FFF;
         }
 
-        .author_login {
+        .author__login {
             color: #ccc;
-            font-size: 9px;
+            font-size: 12px;
         }
     }
 }
