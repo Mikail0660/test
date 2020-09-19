@@ -1,0 +1,29 @@
+.author {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    z-index: 2;
+    display: flex;
+
+    .author_avatar {
+        height: 50px;
+        margin-right: 16px;
+    }
+
+    .author_info {
+        font-family: 'Circe Bold';
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .author_name {
+            font-size: 15px;
+            color: #FFF;
+        }
+
+        .author_login {
+            color: #ccc;
+            font-size: 9px;
+        }
+    }
+}
