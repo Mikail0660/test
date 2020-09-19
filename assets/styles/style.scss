@@ -30,6 +30,8 @@ body {
 
                 .swiper-wrapper {
                     .swiper-slide {
+                        display: flex;
+
                         &::after {
                             content: "";
                             display: block;
@@ -45,7 +47,6 @@ body {
 
                         img {
                             min-width: 100%;
-                            height: 100%;
                         }
                     }
                 }
