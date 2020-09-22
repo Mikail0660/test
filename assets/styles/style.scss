@@ -8,6 +8,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Montserrat Subrayada';
+    src: url('../fonts/Circe-Bold.ttf') format('truetype');
+    font-weight: 700px;
+    font-style: normal;
+}
+
 * {
     font-family: 'Circe Bold';
 }
@@ -106,6 +113,7 @@ body {
             margin: 0 auto;
 
             .content__title {
+                font-family: "Montserrat Subrayada";
                 font-size: 12px;
                 line-height: 15px;
                 font-weight: bold;
