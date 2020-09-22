@@ -8,9 +8,92 @@
     font-style: normal;
 }
 
+* {
+    font-family: 'Circe Bold';
+}
 
 body {
+    font-family: 'Circe Bold';
     margin: 0;
+
+    a {
+        text-decoration: none;
+    }
+
+    .horizontal-list {
+        .horizontal-list__item {
+            display: inline;
+
+            a {
+                color: #6B6C6F;
+
+                &.disabled {
+
+                    color: #B3B3B3 !important;
+                }
+
+                &:visited {
+                    color: #6B6C6F;
+                }
+            }
+
+            &.disc {
+                a::before {
+                    content: "\2022";
+                    font-size: large;
+                }
+            }
+        }
+    }
+
+    .form-group__link {
+        color: #DFE2E6;
+        font-size: 14px;
+        transform: translateY(7px);
+
+        &:visited {
+            color: #DFE2E6;
+        }
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+    }
+
+    .align-items-center {
+        align-items: center;
+
+    }
+
+    .logo-wrap {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 10px;
+        }
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .justify-content-space-between {
+        justify-content: space-between;
+    }
+
+    .justify-content-space-around {
+        justify-content: space-around;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .d-block {
+        display: block;
+    }
 
     .container {
         display: flex;
@@ -18,8 +101,37 @@ body {
         justify-content: space-between;
         height: 100vh;
 
+        .content {
+            width: 48.6%;
+            margin: 0 auto;
+
+            .content__title {
+                font-size: 12px;
+                line-height: 15px;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: #6B6C6F;
+                text-decoration: underline
+            }
+
+            .login-form {
+                padding-top: 18px;
+
+                .login-form__title {
+                    font: outline;
+                    font-size: 26px;
+                    line-height: 38px;
+                    font-weight: bold;
+                    margin-bottom: 14px;
+                }
+            }
+        }
+
         .left-side {
             width: 50%;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
         }
 
         .right-side {
@@ -139,4 +251,7 @@ body {
     }
 }
 
-@import "./author.scss"
+@import "./author.scss";
+@import "./input.scss";
+@import "./button.scss";
+@import "./checkbox.scss";

@@ -12,7 +12,92 @@
   </head>
   <body>
     <div class="container">
-      <div class="left-side"></div>
+      <div class="left-side justify-content-space-between">
+        <div class="row justify-content-space-between header">
+          <div class="logo-wrap">
+            <img
+              src="./assets/img/camera_icon.svg"
+              alt="camera icon"
+              srcset=""
+            />
+            Photoma
+          </div>
+          <span>Home</span>
+        </div>
+        <div class="content">
+          <div class="content__title">Start your personal photo experience</div>
+          <form action="" class="login-form" id="login-form">
+            <div class="login-form__title">Login your account</div>
+            <div class="form-group">
+              <label for="email" class="form-group__label"> Email </label>
+              <img
+                class="form-group__icon form-group__icon--prepend"
+                src="./assets/img/email_icon.svg"
+              />
+              <input
+                type="text"
+                class="form-group__input"
+                id="email"
+                name="email"
+                placeholder="Your E-mail"
+              />
+              <img class="form-group__icon--append" />
+            </div>
+            <div class="form-group">
+              <label for="password" class="form-group__label"> Password </label>
+              <img
+                class="form-group__icon form-group__icon--prepend"
+                src="./assets/img/key_icon.svg"
+              />
+              <input
+                type="text"
+                type="password"
+                class="form-group__input"
+                id="password"
+                name="password"
+                placeholder="Your Password"
+              />
+              <img
+                class="form-group__icon form-group__icon--append form-group__icon--clickable"
+                src="./assets/img/eye_icon.svg.svg"
+              />
+            </div>
+            <div
+              class="form-group form-group--row justify-content-space-between"
+            >
+              <a href="#" class="form-group__button form-group__button--link">
+                Register
+              </a>
+
+              <button class="form-group__button form-group__button--button">
+                Login
+              </button>
+            </div>
+            <div
+              class="form-group form-group--row justify-content-space-between"
+            >
+              <input
+                class="form-group__checkbox"
+                type="checkbox"
+                id="remember"
+              />
+              <label for="remember" class="form-group__label">
+                Remember me
+              </label>
+              <a href="#" class="form-group__link"> Forgot password? </a>
+            </div>
+          </form>
+        </div>
+        <div class="footer row justify-content-space-between">
+          <ul class="horizontal-list">
+            <li class="horizontal-list__item"> <a href="#"> IMPRESS</a></li>
+            <li class="horizontal-list__item disc" type="disc"><a href="#"> Privacy</a></li>
+          </ul>     <ul class="horizontal-list">
+            <li class="horizontal-list__item horizontal-list__item"> <a class="disabled" href="#" > DE</a></li>
+            <li class="horizontal-list__item disc" type="disc"><a href="#"> EN</a></li>
+          </ul>
+        </div>
+      </div>
       <div class="right-side">
         <div class="swiper-container">
           <div class="swiper-wrapper">

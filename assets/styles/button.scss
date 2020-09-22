@@ -1,0 +1,30 @@
+.form-group__button {
+    border-radius: 20px;
+    line-height: 14px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 160px;
+    font-size: 14px;
+    padding: 14px 0 12px 0;
+cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+&:hover{
+   box-shadow:(0px 10px 20px rgba(41, 177, 204, 0.3));
+}
+    &--button {
+        color: #fff;
+        background-color: #29B1CC;
+    }
+
+    &--link {
+        color: #29B1CC;
+        border: 2px solid #29B1CC;
+        padding: 12px 0 10px 0;
+
+        &:visited {
+            color: #29B1CC !important;
+        }
+    }
+}
