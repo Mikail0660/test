@@ -225,7 +225,8 @@ body {
     box-shadow: 0px 10px 20px rgba(41, 177, 204, 0.3); }
   .form-group__button--button {
     color: #fff;
-    background-color: #29B1CC; }
+    background-color: #29B1CC;
+    border: none; }
   .form-group__button--link {
     color: #29B1CC;
     border: 2px solid #29B1CC;
