@@ -60,6 +60,7 @@ body {
     justify-content: space-between;
     height: 100vh; }
     body .container .content {
+      min-width: 350px;
       width: 48.6%;
       margin: 0 auto; }
       body .container .content .content__title {
